@@ -1,10 +1,7 @@
 # Protocol adaptive STL Unet
 STL Unet : Stacked transfer learning Unet
 
-### Reference papers
-
-
-### what does each files do
+### File description
 'enviornment.yml' : Enviornment file for recreating the conda enviornment
 
 `data.py` : Create generators for training and testing, other utility functions
@@ -38,4 +35,11 @@ STL Unet : Stacked transfer learning Unet
     5) run the code with the W & B setup and it will generate a dashboard with the sweep details
     6) Once the sweep is finished download the excel sheet from the W & B dashboard to get the list of best parameters.
     7) Use that parameters in the `Three level tranfer learning.ipynb` to run your custom model
+
+
+If you are using our code for your research Please cite 
+
+[1]: S. Erattakulangara and S. G. Lingala, "Airway segmentation in speech MRI using the U-net architecture," 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI), 2020, pp. 1887-1890, doi: 10.1109/ISBI45749.2020.9098536.
+
+[2]:Erattakulangara, S., and Lingala, S.G. U-net based automatic segmentation of the vocal tract airspace in speech MRI. " 2019 international society for magnetic resonance in medicine "
 
